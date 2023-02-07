@@ -1,0 +1,31 @@
+{
+  "name": "nextjs-with-revise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "axios": "^1.2.6",
+    "dotenv": "^16.0.3",
+    "dotenv-load": "^2.0.1",
+    "ethers": "^6.0.1",
+    "next": "^13.1.6",
+    "next-env": "^1.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "revise-sdk": "^0.2.0",
+    "styled-components": "^5.3.6",
+    "web3": "^1.8.2"
+  },
+  "scripts": {
+    "dev": "next"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.8.1",
+    "babel-plugin-styled-components": "^2.0.7",
+    "hardhat": "^2.12.6"
+  }
+}
